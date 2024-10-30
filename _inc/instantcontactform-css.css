@@ -1,0 +1,65 @@
+.icfWrap {
+    margin: 10px 10px 0 2px;
+    background-color: #ffffff;
+    padding: 2px 5px 20px 5px;
+    border-radius: 2px;
+}
+input.button-primary.icfDelSngl {
+    margin: 15px 4px 4px 4px;
+}
+
+input.button-primary.icfDelAll {
+    text-align: right;
+}
+p.icfSent {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+p.icfFailed {
+    background-color: #880000;
+    color: white;
+    text-align: center;
+}
+table.ts {
+    width: 100%;
+    text-align: left;
+}
+td.ts, .ts th {
+    padding: 8px;
+}
+.ts th {
+    background-color: #50575e;
+    color: white;
+    font-weight: normal;
+    border-radius: 2px;
+    text-align: center;
+}
+.ts td {
+    vertical-align: top;
+}
+table.ts tr:nth-child(odd) {
+    background-color: #f0f6fc;
+}
+.icfForm label {
+	padding-top: 6px;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem 0;
+}
+.icfForm input {
+    width: 100%;
+}
+.icfForm textarea {
+    width: 100%;
+}
+#jgblticf_c {
+    margin-bottom: 11px;
+    max-width: 95px;
+}
+@media screen and (max-width: 400px) {
+    .icfWrap {
+        display: inline-block;
+    }
+}
